@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="container">
+        <a href="#" class="logo">Portfolio</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Zin Min Htet</span>
+          </h1>
+          <h2 class="hero-subtitle">Web Developer</h2>
+          <p class="hero-description">
+            I create beautiful, responsive websites with clean code and modern
+            designs.
+          </p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-image">
+          <img src="img/profile.png" alt="Profile" class="profile-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I’m an aspiring software developer with a strong passion for
+              technology and a commitment to continuous learning. After
+              transitioning from a career as a school teacher, I’ve focused on
+              building my skills in software development through self-study and
+              training. I have experience in programming languages like PHP and
+              JavaScript, and I’m proficient in frameworks such as Laravel. I
+              also possess a solid foundation in web technologies, including
+              HTML and CSS. I’m eager to apply my skills in a professional
+              development role, collaborate with innovative teams, and continue
+              growing as a developer. Feel free to visit my GitHub account—I
+              look forward to connecting!
+            </p>
+            <p>
+              I love turning complex problems into simple, beautiful designs.
+            </p>
+          </div>
+          <div class="about-info">
+            <div class="info-item">
+              <h3>Name:</h3>
+              <p>Zin Min Htet</p>
+            </div>
+            <div class="info-item">
+              <h3>Email:</h3>
+              <p>zinminhtet.2016.mr@gmail.com</p>
+            </div>
+            <div class="info-item">
+              <h3>Location:</h3>
+              <p>Hlaing Township, Yangon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>HTML/CSS</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="95"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>React</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>UI/UX Design</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="80"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="https://via.placeholder.com/400x250" alt="Project 1" />
+            <div class="project-info">
+              <h3>E-Commerce Website</h3>
+              <p>
+                Responsive e-commerce site with shopping cart functionality.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="https://via.placeholder.com/400x250" alt="Project 2" />
+            <div class="project-info">
+              <h3>Task Manager App</h3>
+              <p>Web application for managing daily tasks with drag & drop.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="https://via.placeholder.com/400x250" alt="Project 3" />
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>Modern portfolio with dark mode and smooth animations.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <h3>Email</h3>
+              <p>john@example.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <h3>Phone</h3>
+              <p>+1 (123) 456-7890</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Location</h3>
+              <p>New York, USA</p>
+            </div>
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
